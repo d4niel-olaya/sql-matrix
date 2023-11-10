@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Logo from './components/Logo.vue';
 </script>
 
 <template>
 
   <main>
-    <button class="btn btn-primary">Hello</button>
+    <div class="max-w-4xl mx-auto px-4">
+
+      <Logo/>
+    </div>
   </main>
 </template>
 
