@@ -25,6 +25,9 @@
             </label>
             <textarea class="textarea textarea-bordered h-40" placeholder="INSERT INTO ...." v-model="result"></textarea>
         </div>
+        <div>
+            <span class="label-text-alt text-neutral-content">Generating many records may result in an incomplete final query.</span>
+        </div>
     </div>
 </template>
 
