@@ -22,7 +22,7 @@ export async function googleReq(schema:string , rows:string)
         return "Error to translate"
       }
       const result = await res.json()
-      const query : string = result.candidates[0].output.trim()
-      return query
+      const query : string = result.candidates[0].output.replaceAll("```sql","")
+      return query.replace("```","").trim()
 }
 
