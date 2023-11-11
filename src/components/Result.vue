@@ -3,7 +3,7 @@
         <div class="w-1/2">
             <div class="form-control w-full max-w-xl">
                 <label class="label">Schema</label>
-                <textarea class="textarea textarea-bordered" placeholder="CREATE TABLE ...." v-model="schema"></textarea>
+                <textarea class="textarea textarea-bordered" placeholder="CREATE TABLE ...." v-model="schema" spellcheck="false"></textarea>
             </div>
         </div>
         <div>
@@ -23,7 +23,7 @@
             <label class="label">
                 <span class="label-text">Result</span>
             </label>
-            <textarea class="textarea textarea-bordered h-40" placeholder="INSERT INTO ...." v-model="result"></textarea>
+            <textarea class="textarea textarea-bordered h-40" placeholder="INSERT INTO ...." v-model="result" spellcheck="false"></textarea>
         </div>
         <div>
             <span class="label-text-alt text-neutral-content">Generating many records may result in an incomplete final query.</span>
