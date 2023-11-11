@@ -9,7 +9,6 @@ import Result from './components/Result.vue';
   <main>
     <div class="max-w-4xl mx-auto px-4">
       <Logo/>
-      <Schema/>
       <Result/>
     </div>
   </main>
